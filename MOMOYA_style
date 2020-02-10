@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+}
+
+header {
+    position: fixed;
+    z-index: 2000;
+    width: 100%;
+    height: 65px;
+    background-color: rgba(244, 188, 205, 0.9);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.momoya_logo {
+  padding: 5px 20px;
+  height: 50px;
+  width: 125px;
+}
+
+.momoya_logo img {
+  text-align: center;
+}
+
+.header_left {
+    float: left;
+}
+
+.header_right {
+    float: right;
+    padding-right: 20px;
+    line-height: 65px;
+}
+
+.header_right a {
+    padding: 0px 25px;
+    display: block;
+    float: left;
+    color: white;
+    transition: all 0.5s;
+    border-radius: 2px;
+}
+
+.header_right :hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.header_sign_up {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.top_background {
+    padding: 50px;
+    height: 550px;
+    background: linear-gradient(130deg, rgba(191, 248, 178, 0.2), rgba(130, 90, 246, 0.8)), url(トロトロオムライス.jpg);
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.top_left_wrapper  {
+    position: relative;
+    z-index: 0;
+    float: left;
+    transform: scale(1, 1);
+    height: 600px;
+    top: 105px;
+    left: 0px;
+    opacity: 0.95;
+}
+
+.top_right_wrapper {
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 170px;
+    left: 600px;
+    text-align: center;
+    display: block;
+    width: 50%;
+    opacity: 0.9;
+}
+
+.top_right_wrapper h1 {
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-size: 70px;
+}
+
+.top_right_wrapper p {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.top_right_wrapper span {
+    padding: 14px 20px;
+    border-radius: 4px;
+}
+
+.tonikaku {
+    background-color: #239b76;
+    margin: 30px 30px;
+}
+
+.google {
+    background-color: #4486F7;
+}
+
+.twitter {
+    background-color: #00ACEE;
+    margin-left: 10px;
+}
+
+.top_wrapper h1,
+    {
+    opacity: 0.8;
+}
+
+.top_wrapper p {
+    opacity: 0.8;
+}
+
+.middle_background_image {
+    position: relative;
+    z-index: 10;
+    background-color: #F8F0EE;
+    height: 800px;
+    padding-bottom: 150px;
+}
+
+.middle_wrapper {
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 115px;
+}
+
+.heading h2 {
+    color: #5f5d60;
+    text-align: center;
+    font-weight: normal;
+}
+
+.heading p {
+    color: #5f5d60;
+    text-align: center;
+    font-weight: normal;
+}
+
+.heading img {
+}
+
+.momoya_logo_center img{
+  height: 75px;
+  width: auto;
+}
+
+.momoya_logo_center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.heading_message {
+    margin-top: 50px;
+    font-size: 26px;
+}
+
+.contents {
+    margin-bottom: 100px;
+}
+
+.content {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    color: #000000;
+    opacity: 0.65;
+}
+
+.pic img{
+  height: 200px;
+}
+
+.icon p {
+    font-size: 36px;
+}
+
+.icon_item {
+    position: relative;
+    z-index: 20;
+    height: 48px;
+    margin: 0px 0px 0px 0px;
+}
+
+.message_wrapper {
+    height: px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.message {
+    padding: 50px 0px 50px 0px;
+    font-weight: normal;
+    color: #000000;
+    opacity: 0.65;
+}
+
+.message h2 {
+    font-weight: normal;
+}
+
+.message_wrapper {}
+
+.message_wrapper span {
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    background-color: #5dca88;
+    padding: 20px 15%;
+    border-radius: 5px;
+    box-shadow: 0 7px #1a7940;
+}
+
+.btn_message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+footer img {
+    height: 47px;
+}

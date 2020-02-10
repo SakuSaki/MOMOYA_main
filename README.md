@@ -3,7 +3,7 @@
   <head>
     <title>パーラーレストラン モモヤ</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="SoldOut2_Parody.css">
+    <link rel="stylesheet" href="MOMOYA_style.css">
   </head>
   <body>
     <header>
